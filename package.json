@@ -2,10 +2,15 @@
   "name": "restaurante-api-mock",
   "type": "module",
   "dependencies": {
+    "dotenv": "^17.2.2",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.1.7",
     "express": "^4.21.0"
   },
   "scripts": {
-    "dev": "node --watch src/app.js",
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "db:sync": "node src/database/sync.js",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
