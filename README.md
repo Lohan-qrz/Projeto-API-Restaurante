@@ -97,3 +97,4 @@ O Sequelize mapeia os models em `src/models/` para tabelas SQLite. Relacionament
 ## Projeto
 
 Projeto acadêmico do 3º ano do Ensino Médio integrado ao Técnico em Informática, IFPB - Campus Campina Grande, 2026.
+Alunos: Gabriel Lohan Queiroz Sátiro, João Gustavo Barbosa Matias, José Isaias Gonzaga da Silva e Lucas Gabriel Silva Maciel
